@@ -1,6 +1,8 @@
 #include <iostream>
 #include "src/prime.hpp"
 
+using namespace std;
+
 bool isInteger(const string &str) {
   return all_of(str.begin(), str.end(), [](char c) {
       return isdigit(c);
