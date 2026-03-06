@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 #include "src/prime.hpp"
 
 using namespace std;
